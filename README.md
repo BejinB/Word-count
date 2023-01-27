@@ -16,9 +16,11 @@ Step 4: The length of the split list should equal the numbe of words in the text
 Step 5: You can refine the count by clearing the string prior t splitting or validatting the words after splitting
 ## PROGRAM:
 ```
+'''
 Program for getting the word count from a text.
-developed by : B.Bejin
+developed by : bejin.b
 Register Number: 22001908
+'''
 num=0
 with open("git.txt","r") as f1:
     for i in f1:
@@ -28,7 +30,7 @@ print("The number of words are in the file is ",num)
 ```
 ### OUTPUT:
 
-![image](https://user-images.githubusercontent.com/118367518/214826512-831f38cb-dc76-43df-83e1-6b48b468635b.png)
+![image](https://user-images.githubusercontent.com/118367518/215087869-a9379e2d-956d-4f7d-8c95-5bb8d8811e25.png)
 
 
 ## RESULT:
